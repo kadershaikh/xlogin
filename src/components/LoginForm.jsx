@@ -21,25 +21,25 @@ function LoginForm() {
       <form onSubmit={handleSubmit}>
         <label>
           Username:
-          <input
+        </label>
+        <input
             type="text"
             placeholder='username'
             value={username}
             onChange={(e) => setUsername(e.target.value)}
             required
           />
-        </label>
         <br />
         <label>
           Password:
-          <input
+        </label>
+        <input
             type="password"
             placeholder='password'
             value={password}
             onChange={(e) => setPassword(e.target.value)}
             required
           />
-        </label>
         <br />
         <button type="submit">Submit</button>
       </form>
